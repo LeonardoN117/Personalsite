@@ -1,0 +1,28 @@
+sub, sup{
+    color:black;
+    font-weight: lighter ;
+}
+
+
+ol li:nth-child(even){
+    color:lime;
+}
+
+ol li:nth-child(odd){
+    color:burlywood;
+}
+
+::marker{
+    color: black;
+}
+
+ul li:nth-child(2){
+    color: red;
+}
+
+
+table, th,td{
+    border: 50px insert;
+    color: black;
+    padding : 10px;
+}

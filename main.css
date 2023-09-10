@@ -1,0 +1,49 @@
+html {
+    font-size:  22px
+}
+
+body{
+    background: linear-gradient(rgb(230, 89, 112), rgb(22, 24, 161)) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times;
+    font-weight: 600;
+    }
+
+
+h1{
+    color:goldenrod;
+    border: 6px dashed darkred;
+    width: 50%
+}
+
+img{
+    height:500;
+    width: 500;
+}
+video{
+    height: 400px;
+    width: 300px;
+    background-image: linear-gradient(to right, rgb(25, 0, 255) , rgb(0, 81, 255));
+    
+
+}
+
+a{
+    text-decoration: dashed;
+    cursor: pointer;
+    color:blue;
+    font-style: oblique;
+}
+
+a:visited{
+    color: green
+}
+
+a:hover, a:focus{
+    background: black;
+    color: white; 
+}
+a:active{
+    color: black;
+}
