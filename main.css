@@ -2,6 +2,23 @@ html {
     font-size:  22px
 }
 
+.topbar{
+    background-color: rgb(18, 179, 233);
+    border: solid black 1px;
+    width: 400px;
+    aspect-ratio: 8/1;
+    animation: mymove 3s;
+    animation-fill-mode: forwards;
+    animation: mymove3s;
+    animation-fill-mode: backwards;
+}
+
+  .highlight{
+    background-color: antiquewhite;
+    border: solid yellow;
+  }
+    
+  
 body{
     background: linear-gradient(rgb(230, 89, 112), rgb(22, 24, 161)) ;
     background-repeat: no-repeat;
@@ -14,8 +31,12 @@ body{
 h1{
     color:goldenrod;
     border: 6px dashed darkred;
-    width: 50%
+    width: 50%;
+    text-shadow: 2px 2px 5px rgb(193, 213, 9);
+    
 }
+
+
 
 img{
     height:500;

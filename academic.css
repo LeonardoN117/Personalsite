@@ -11,3 +11,19 @@ tbody tr:nth-child(odd) {
   table {
     background-color: #ff33cc;
   }
+
+.chrometable{
+  
+  background-color:darkred;
+    inline-size: 60%;
+  border-block-end-width: 10px;
+  border-block-end-style: solid;
+  border-block-end-color: gold;
+}
+.chrometable2{
+  background-color: gold;
+  inline-size: 60%;
+  border-block-end-width: 10px;
+  border-block-end-style: solid;
+  border-block-end-color: darkred;
+}
