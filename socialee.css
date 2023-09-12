@@ -3,6 +3,9 @@ sub, sup{
     font-weight: lighter ;
 }
 
+p{
+    color: black;
+}
 
 ol li:nth-child(even){
     color:lime;
@@ -25,4 +28,22 @@ table, th,td{
     border: 50px insert;
     color: black;
     padding : 10px;
+}
+
+/* need to fix this class */
+.opacitylow{
+    opacity: .33;
+}
+
+.oneline{
+    white-space: nowrap;
+}
+
+.dissapear{
+    visibility: hidden;
+}
+
+.outline{
+    outline: thick double;
+    color: rebeccapurple;
 }

@@ -1,10 +1,18 @@
 html {
-    font-size:  22px
+    font-size:  18px
 }
 
+
+
+.center{
+    margin-left: 360px;
+}
 .topbar{
-    background-color: rgb(18, 179, 233);
+    position: sticky;
+    top: 0;
+    border: 2px solid #4CAF50;
     border: solid black 1px;
+    background-color: violet;
     width: 400px;
     aspect-ratio: 8/1;
     animation: mymove 3s;
@@ -33,6 +41,7 @@ h1{
     border: 6px dashed darkred;
     width: 50%;
     text-shadow: 2px 2px 5px rgb(193, 213, 9);
+    vertical-align: bottom;
     
 }
 
