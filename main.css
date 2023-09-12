@@ -4,9 +4,7 @@ html {
 
 
 
-.center{
-    margin-left: 360px;
-}
+
 .topbar{
     position: sticky;
     top: 0;
@@ -28,7 +26,7 @@ html {
     
   
 body{
-    background: linear-gradient(rgb(230, 89, 112), rgb(22, 24, 161)) ;
+    background: linear-gradient(rgb(239, 119, 139), rgb(62, 64, 157)) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Times New Roman', Times;
@@ -37,11 +35,14 @@ body{
 
 
 h1{
+    font-size: 60px;
     color:goldenrod;
-    border: 6px dashed darkred;
-    width: 50%;
+    border: 3px dashed darkred;
+    width: 63%;
     text-shadow: 2px 2px 5px rgb(193, 213, 9);
-    vertical-align: bottom;
+    vertical-align: center;
+    white-space: nowrap;
+    margin-left: 320px;
     
 }
 
@@ -77,3 +78,7 @@ a:hover, a:focus{
 a:active{
     color: black;
 }
+
+.spaced{
+    word-spacing: 1rem;
+  }
