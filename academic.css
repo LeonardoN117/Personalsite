@@ -1,9 +1,23 @@
 div{
   width: 400px;
-  height: 200px;
+  height: 30px;
   background-color: whitesmoke;
   transition: width 2s;
   transition-delay: 1.5s
+}
+
+.topbar{
+  position: sticky;
+  top: 0;
+  border: 2px solid #4CAF50;
+  border: solid black 1px;
+  background-color: violet;
+  width: 400px;
+  aspect-ratio: 8/1;
+  animation: mymove 3s;
+  animation-fill-mode: forwards;
+  animation: mymove3s;
+  animation-fill-mode: backwards;
 }
 
 body{
