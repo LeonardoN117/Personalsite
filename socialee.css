@@ -1,3 +1,23 @@
+.topbar{
+    position: sticky;
+    top: 0;
+    border: 2px solid #4CAF50;
+    border: solid black 1px;
+    background-color: violet;
+    width: 400px;
+    aspect-ratio: 8/1;
+    animation: mymove 3s;
+    animation-fill-mode: forwards;
+    animation: mymove3s;
+    animation-fill-mode: backwards;
+}
+
+
+body{
+    background-image: url(wood.jpeg) ;
+    background-size: auto;
+}
+
 sub, sup{
     color:black;
     font-weight: lighter ;
@@ -45,7 +65,7 @@ table, th,td{
 
 .outline{
     outline: thick double;
-    color: rebeccapurple;
+    color: white;
 }
 
 

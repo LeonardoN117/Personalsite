@@ -1,6 +1,21 @@
+div{
+  width: 400px;
+  height: 200px;
+  background-color: whitesmoke;
+  transition: width 2s;
+  transition-delay: 1.5s
+}
+
+body{
+  background:repeating-linear-gradient(darkred,gold);
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+
+}
+
 tbody tr:nth-child(odd) {
-    background-color: #ff33cc;
-    /*font-display: block ;*/
+    background-color: hsl(315, 100%, 60%);
+    font-display: block ;
   }
   
   tbody tr:nth-child(even) {
@@ -37,4 +52,34 @@ tbody tr:nth-child(odd) {
 
 #a{
   quotes: "'" "'";
+}
+
+
+@keyframes example{
+  from{
+      background-color:gold
+  }
+  to{
+      background-color:darkred
+  }
+}
+
+.colorchange{
+  height: 40px;
+  background: darkred;
+  animation-name: example;
+  animation-delay: 4s;
+  animation: example 4s;
+}
+
+.heading{
+  color:black;
+  transition-timing-function: steps(6,end);
+  transition-duration: 0.5s,;
+  transition-delay: 2s;
+}
+
+.heading:hover{
+  transform: translate(50px, 100px) rotate(20deg);
+  scale : (2,2);
 }

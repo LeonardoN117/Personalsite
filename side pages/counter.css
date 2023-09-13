@@ -1,0 +1,90 @@
+sub, sup{
+    color:black;
+    font-weight: lighter ;
+}
+
+p{
+    color: black;
+}
+
+ol li:nth-child(even){
+    color:lime;
+}
+
+ol li:nth-child(odd){
+    color:burlywood;
+}
+
+::marker{
+    color: black;
+}
+
+ul li:nth-child(2){
+    color: red;
+}
+
+
+table, th,td{
+    border: 50px insert;
+    color: black;
+    padding : 10px;
+}
+
+/* need to fix this class */
+.opacitylow{
+    opacity: .33;
+}
+
+.oneline{
+    white-space: nowrap;
+}
+
+.dissapear{
+    visibility: hidden;
+}
+
+.outline{
+    outline: thick double;
+    color: rebeccapurple;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ff33cc;
+    /*font-display: block ;*/
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #e495e4;
+
+  }
+  
+  .organize {
+    background-color: #ff33cc;
+    table-layout: fixed;
+    width: 100%;
+
+  }
+
+.chrometable{
+  
+  background-color:darkred;
+    inline-size: 60%;
+  border-block-end-width: 10px;
+  border-block-end-style: solid;
+  border-block-end-color: gold;
+}
+.chrometable2{
+  background-color: gold;
+  inline-size: 60%;
+  border-block-end-width: 10px;
+  border-block-end-style: solid;
+  border-block-end-color: darkred;
+}
+
+.collum{
+  columns: 6rem auto;
+}
+
+#a{
+  quotes: "'" "'";
+}
