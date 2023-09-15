@@ -43,12 +43,11 @@ h1{
     
 }
 
-
-
 img{
-    height:500;
-    width: 500;
+    height: 500px;
+    width: 500px;
 }
+
 video{
     height: 400px;
     width: 300px;

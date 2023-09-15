@@ -45,7 +45,7 @@ ul li:nth-child(2){
 
 
 table, th,td{
-    border: 50px insert;
+    border: 50px;
     color: black;
     padding : 10px;
 }
